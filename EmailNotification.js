@@ -11,26 +11,11 @@ function onEdit(e) {
     if (e.range.getRow() === 3) {
       return;
     }
+    
   
     // List of tutor emails and their corresponding sheets
     var tutors = {
-      "liuqiuyuan@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "mitch@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "tinachi2021@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "taejeongyim@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "jamiejeong@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "jieun550@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "hy0918@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "ypham98@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "sayu721@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "buhsoh@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "ellieshek@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "marbrowne3@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "hoferkri@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "eliasjessop@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "dallinmckinney@hotmail.com": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "taleahbutler@go.byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y",
-      "catbc@byuh.edu": "18Rtdyuwp0d1MGxPt-4V01rcTYy-SHe31iQigriHyt7Y"
+    //  "Put the email here": "Put the unique identifier (ID) for that particular spreadsheet"
       // Add more tutors and sheet IDs as needed
     };
   
