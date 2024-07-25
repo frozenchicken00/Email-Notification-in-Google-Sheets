@@ -1,5 +1,4 @@
 # Hoyoung
-Here's a README for the provided code:
 
 # Google Sheets Edit Notification Script
 
@@ -46,22 +45,14 @@ This is the main function triggered when any cell in the sheet is edited. It per
    var tutors = {
      "example@example.com": "SHEET_ID_HERE",
      // Add more tutor's email and sheet IDs as needed
+     // The unique identifier is in between /d/ and /edit? in URL
    };
    ```
 4. **Save and deploy** the script.
 5. **Authorize the script**: When running for the first time, it will ask for necessary permissions. Allow them to enable the script to function correctly.
 
-## Example
-
-Here is an example of how to add a tutor's email and sheet ID:
-```javascript
-var tutors = {
-  "tutor1@example.com": "1GfYdXaP1aLWLmKZ8dF9u4v7e6Qh",
-  "tutor2@example.com": "2HgXhZcQ2bMWOmN9fJ0v5x7j8Kl",
-};
-```
-
-With this setup, whenever a cell within the specified ranges is edited, an email will be sent to the corresponding tutor with the details of the edit.
+## Limitation
+- The onEdit trigger does not provide direct information about who edited the sheet.
 
 ## Notes
 
