@@ -1,5 +1,3 @@
-# Hoyoung
-
 # Google Sheets Edit Notification Script
 
 ## Overview
